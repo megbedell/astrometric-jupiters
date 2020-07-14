@@ -1,0 +1,17 @@
+name: astrometric-jupiters
+
+channels:
+  - astropy
+
+dependencies:
+  - python=3
+  - astropy
+  - numpy
+  - matplotlib
+  - scipy
+  - cython
+  - pytest
+  - ipykernel
+  - pip:
+    - pytest-astropy
+    - twobody
